@@ -21,7 +21,7 @@ server.listen(port, function () {
 ### Short way 
 
 ```javascript
-var SolidWs = require('solid-ws')
+var solidWs = require('solid-ws')
 var ldnode = require('ldnode')
 
 var server = ldnode.createServer()
@@ -35,7 +35,7 @@ server.listen(port, function () {
 ### Long way
 
 ```javascript
-var SolidWs = require('solid-ws')
+var solidWs = require('solid-ws')
 var ldnode = require('ldnode')
 var express = require('express')
 var https = require('https')
